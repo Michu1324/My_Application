@@ -23,14 +23,14 @@
             android:layout_weight="1"
             android:id="@+id/imageView2"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/image_button_source" />
+            android:src="@mipmap/image_button_source_concerts" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:id="@+id/imageView"
-            android:src="@drawable/image_button_source"
+            android:src="@mipmap/image_button_source_night_live"
             android:layout_gravity="center_vertical" />
 
     </LinearLayout>
@@ -49,14 +49,14 @@
             android:layout_weight="1"
             android:id="@+id/imageView3"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/image_button_source" />
+            android:src="@mipmap/image_button_source_meet_ups" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:id="@+id/imageView4"
-            android:src="@drawable/image_button_source"
+            android:src="@mipmap/image_button_source_others"
             android:layout_gravity="center_vertical" />
 
     </LinearLayout>
