@@ -1,9 +1,11 @@
 package com.example.android.myapplication;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -34,5 +36,37 @@ public class MainActivity extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onOthersClick(View view) {
+        Intent OthersScreenIntent = new Intent(this, CategoryScreen.class);
+        //final int result = 1;
+
+        OthersScreenIntent.putExtra("ScreenName", "Others");
+        startActivity(OthersScreenIntent);
+    }
+
+    public void onMeetUpsClick(View view) {
+        Intent MeetUpsScreenIntent = new Intent(this, CategoryScreen.class);
+       // final int result = 1;
+
+        MeetUpsScreenIntent.putExtra("ScreenName", "MeetUps");
+        startActivity(MeetUpsScreenIntent);
+    }
+
+    public void onNightLiveClick(View view) {
+        Intent NightLiveScreenIntent = new Intent(this, CategoryScreen.class);
+        //final int result = 1;
+
+        NightLiveScreenIntent.putExtra("ScreenName", "NightLive");
+        startActivity(NightLiveScreenIntent);
+    }
+
+    public void onConcertsClick(View view) {
+        Intent ConcertsScreenIntent = new Intent(this, CategoryScreen.class);
+        //final int result = 1;
+
+        ConcertsScreenIntent.putExtra("ScreenName", "Concerts");
+        startActivity(ConcertsScreenIntent);
     }
 }
