@@ -23,7 +23,8 @@
             android:layout_weight="1"
             android:id="@+id/imageView2"
             android:layout_gravity="center_vertical"
-            android:src="@mipmap/image_button_source_concerts" />
+            android:src="@mipmap/image_button_source_concerts"
+            android:onClick="onConcertsClick"/>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -31,6 +32,7 @@
             android:layout_weight="1"
             android:id="@+id/imageView"
             android:src="@mipmap/image_button_source_night_live"
+            android:onClick="onNightLiveClick"
             android:layout_gravity="center_vertical" />
 
     </LinearLayout>
@@ -49,7 +51,8 @@
             android:layout_weight="1"
             android:id="@+id/imageView3"
             android:layout_gravity="center_vertical"
-            android:src="@mipmap/image_button_source_meet_ups" />
+            android:src="@mipmap/image_button_source_meet_ups"
+            android:onClick="onMeetUpsClick"/>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -57,6 +60,7 @@
             android:layout_weight="1"
             android:id="@+id/imageView4"
             android:src="@mipmap/image_button_source_others"
+            android:onClick="onOthersClick"
             android:layout_gravity="center_vertical" />
 
     </LinearLayout>
